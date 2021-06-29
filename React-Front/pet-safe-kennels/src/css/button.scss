@@ -1,0 +1,43 @@
+.button{  
+
+    margin-left: 85vh; 
+    font-size: larger;
+    border-radius: 15px;  
+    background-color: rgb(250, 121, 82);
+    box-shadow: 4px 6px rgb(202, 138, 138); 
+} 
+.button:hover{
+    background-color: rgb(0, 255, 255); 
+    box-shadow: 2px 5px rgb(221, 236, 153);
+    cursor: pointer;
+} 
+
+#dog-parent{
+    
+    .button{  
+    .contact-form{ 
+        margin-right: clamp(90vh,90vh, 90vh); 
+       
+    }
+    align-self: center; 
+    margin-right: 80vh;
+    } 
+    p{
+        justify-items: center; 
+        margin-left: 50vh; 
+        color:rgb(243, 238, 171); 
+        font-weight: bold;
+    } 
+    #call{
+    color:white;
+}
+} 
+
+#highlight{
+    font-weight: bold; 
+    font-size: larger;
+    font-family: cursive;
+} 
+#call{
+    color:white;
+}

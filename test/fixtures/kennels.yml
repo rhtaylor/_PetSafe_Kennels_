@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  kennel_type: MyString
+  material_cost: 
+  labor_cost: 
+  price: 
+  customer: one
+
+two:
+  kennel_type: MyString
+  material_cost: 
+  labor_cost: 
+  price: 
+  customer: two

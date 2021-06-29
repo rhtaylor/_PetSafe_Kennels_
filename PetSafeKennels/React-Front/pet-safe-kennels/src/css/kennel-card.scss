@@ -1,0 +1,25 @@
+
+.parentDog{
+    display: flex; 
+    align-content: center;
+}
+.myKennels{ 
+    max-width: 800px;
+    max-height: 800px; 
+    min-width: 800px; 
+    min-width: 800px;
+    background: url(#{'../pictures/card-back.jpg'});    
+    img{
+        max-width: 500px; 
+        max-height: 500px; 
+        
+    }
+    li{
+        color: rgb(72, 75, 248);
+    } 
+    h3{
+        color:rgb(102, 99, 57); 
+        font-weight: bold;
+    } 
+
+}

@@ -1,0 +1,2508 @@
+Started GET "/" for ::1 at 2020-12-21 21:51:56 -0700
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-12-21 21:54:14 -0700
+  
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?
+):
+  
+pg (1.2.3) lib/pg.rb:58:in `initialize'
+pg (1.2.3) lib/pg.rb:58:in `new'
+pg (1.2.3) lib/pg.rb:58:in `connect'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/postgresql_adapter.rb:46:in `postgresql_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.4) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.4) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-12-21 22:01:57 -0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.4) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.4) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCustomers (20201222045729)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (40.9ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "name" character varying, "number" bigint, "email" character varying, "city" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCustomers (20201222045729)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.6ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "name" character varying, "number" bigint, "email" character varying, "city" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (171.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PetSafe_Kennels_development"[0m
+  [1m[35m (1345.1ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (22.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCustomers (20201222045729)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.4ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "name" character varying, "number" bigint, "email" character varying, "city" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201222045729"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-22 05:03:47.829646"], ["updated_at", "2020-12-22 05:03:47.829646"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-21 22:03:58 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 31.0ms | Allocations: 315)
+Completed 200 OK in 43ms (Views: 36.1ms | ActiveRecord: 0.0ms | Allocations: 4232)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (86.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PetSafe_Kennels_development"[0m
+  [1m[35m (1222.2ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (21.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (10.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCustomers (20201222045729)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.4ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "name" character varying, "number" bigint, "email" character varying, "city" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201222045729"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateKennels (20201222051642)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKennels (20201222051857)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKennels (20201222051954)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKennels (20201222051954)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKennels (20201222051954)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKennels (20201222052323)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateKennels (20201222052412)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (27.0ms)[0m  [1m[35mCREATE TABLE "kennels" ("id" bigserial primary key, "kennel_type" character varying, "cost_material" bigint, "cost_labor" bigint, "date" timestamp, "customers_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_30089cad30"
+FOREIGN KEY ("customers_id")
+  REFERENCES "customers" ("id")
+)[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE  INDEX  "index_kennels_on_customers_id" ON "kennels"  ("customers_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201222052412"]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-12-22 05:24:42.509995"], ["updated_at", "2020-12-22 05:24:42.509995"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-12-21 22:24:57 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.1ms | Allocations: 315)
+Completed 200 OK in 20ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4233)
+
+
+Started GET "/" for ::1 at 2020-12-21 22:25:03 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.3ms | Allocations: 196)
+Completed 200 OK in 27ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 4632)
+
+
+Started GET "/" for ::1 at 2020-12-21 22:27:44 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 8)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2877)
+
+
+Started GET "/" for ::1 at 2020-12-21 22:27:55 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.5ms | Allocations: 7)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/" for ::1 at 2020-12-21 22:29:43 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 7)
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2872)
+
+
+Started GET "/customers.json" for ::1 at 2020-12-31 19:42:36 -0700
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 14.7ms | Allocations: 212)
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.0ms | Allocations: 2909)
+
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (9.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 02:46:10.846090"], ["updated_at", "2021-01-01 02:46:10.846090"]]
+  [1m[35m (0.5ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (1.1ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 02:50:00.011962"], ["updated_at", "2021-01-01 02:50:00.011962"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 02:50:00.021435"], ["updated_at", "2021-01-01 02:50:00.021435"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (1.0ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 03:07:33.205106"], ["updated_at", "2021-01-01 03:07:33.205106"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 03:07:33.213026"], ["updated_at", "2021-01-01 03:07:33.213026"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (1.0ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 03:10:16.703407"], ["updated_at", "2021-01-01 03:10:16.703407"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 03:10:16.712826"], ["updated_at", "2021-01-01 03:10:16.712826"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "kennels"[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 03:11:03.793631"], ["updated_at", "2021-01-01 03:11:03.793631"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 03:11:03.799639"], ["updated_at", "2021-01-01 03:11:03.799639"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "customers"."id" FROM "customers"[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (1.4ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 03:16:43.371574"], ["updated_at", "2021-01-01 03:16:43.371574"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 03:16:43.381250"], ["updated_at", "2021-01-01 03:16:43.381250"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[36mCustomer Load (1.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (113.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PetSafe_Kennels_development"[0m
+  [1m[35m (1361.3ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (23.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (9.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCustomers (20201222045729)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (13.7ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "name" character varying, "number" bigint, "email" character varying, "city" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201222045729"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateKennels (20210101170138)
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (22.1ms)[0m  [1m[35mCREATE TABLE "kennels" ("id" bigserial primary key, "kennel_type" character varying, "material_cost" bigint, "labor_cost" bigint, "price" bigint, "customer_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_d8d0eb9f98"
+FOREIGN KEY ("customer_id")
+  REFERENCES "customers" ("id")
+)[0m
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE  INDEX  "index_kennels_on_customer_id" ON "kennels"  ("customer_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210101170138"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-01-01 17:04:17.845168"], ["updated_at", "2021-01-01 17:04:17.845168"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (1.5ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "jon tay"], ["number", 5555], ["email", "yahoo"], ["city", "phoenix"], ["created_at", "2021-01-01 17:05:16.071673"], ["updated_at", "2021-01-01 17:05:16.071673"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mKennel Create (2.3ms)[0m  [1m[32mINSERT INTO "kennels" ("kennel_type", "material_cost", "labor_cost", "price", "customer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["kennel_type", "dog run"], ["material_cost", 5000000], ["labor_cost", 50000], ["price", 1000000], ["customer_id", 1], ["created_at", "2021-01-01 17:06:11.547922"], ["updated_at", "2021-01-01 17:06:11.547922"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (1.1ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 17:35:00.742858"], ["updated_at", "2021-01-01 17:35:00.742858"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 17:35:00.753477"], ["updated_at", "2021-01-01 17:35:00.753477"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.6ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 17:37:45.627172"], ["updated_at", "2021-01-01 17:37:45.627172"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Create (0.5ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 17:37:45.631156"], ["updated_at", "2021-01-01 17:37:45.631156"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mKennel Create (1.2ms)[0m  [1m[32mINSERT INTO "kennels" ("kennel_type", "material_cost", "labor_cost", "price", "customer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["kennel_type", "dog run"], ["material_cost", 2000], ["labor_cost", 3000], ["price", 20000], ["customer_id", 4], ["created_at", "2021-01-01 17:39:20.073674"], ["updated_at", "2021-01-01 17:39:20.073674"]]
+  [1m[35m (0.2ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Create (0.9ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-01-01 17:43:23.278770"], ["updated_at", "2021-01-01 17:43:23.278770"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Create (0.3ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-01-01 17:43:23.282674"], ["updated_at", "2021-01-01 17:43:23.282674"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "kennels"[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (1.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mKennel Create (1.2ms)[0m  [1m[32mINSERT INTO "kennels" ("kennel_type", "material_cost", "labor_cost", "price", "customer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["kennel_type", "Dog Run"], ["material_cost", 30000], ["labor_cost", 5000], ["price", 20000], ["customer_id", 6], ["created_at", "2021-01-01 17:44:28.907209"], ["updated_at", "2021-01-01 17:44:28.907209"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mKennel Create (0.3ms)[0m  [1m[32mINSERT INTO "kennels" ("kennel_type", "material_cost", "labor_cost", "price", "customer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["kennel_type", "Cool Kennel"], ["material_cost", 50000], ["labor_cost", 3000], ["price", 50000], ["customer_id", 7], ["created_at", "2021-01-01 17:44:28.912510"], ["updated_at", "2021-01-01 17:44:28.912510"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "kennels"[0m
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" ORDER BY "kennels"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/customers.json" for ::1 at 2021-01-01 11:03:28 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 1.0ms | Allocations: 212)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2284)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:03:57 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.6ms | Allocations: 34)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 404)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:03:57 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:05:21 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 1.2ms | Allocations: 212)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2151)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:05:22 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 402)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:05:25 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.3ms | Allocations: 34)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 402)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:05:25 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:06:44 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 34)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 402)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:06:44 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 401)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:15:14 -0700
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 1.4ms | Allocations: 212)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3256)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:15:14 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 402)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:17:26 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.8ms | Allocations: 95)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 1474)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:17:26 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 33)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 402)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:28:22 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 34)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 404)
+
+
+Started GET "/showcase" for ::1 at 2021-01-01 11:34:30 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/showcase"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/customers.json" for ::1 at 2021-01-01 11:34:40 -0700
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.2ms | Allocations: 35)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 535)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:50:43 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 41ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 405)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-01 11:50:44 -0700
+Processing by CustomersController#index.json as */*
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.2ms | Allocations: 33)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 401)
+
+
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.3ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/customers.json" for ::1 at 2021-01-05 18:19:24 -0700
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 15.4ms | Allocations: 212)
+Completed 200 OK in 55ms (Views: 51.1ms | ActiveRecord: 0.0ms | Allocations: 2394)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-05 18:24:36 -0700
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.3ms | Allocations: 96)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1684)
+
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[35m (0.9ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/customers.json" for ::1 at 2021-01-05 18:26:34 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.9ms | Allocations: 212)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2291)
+
+
+Started GET "//customers.json" for ::1 at 2021-01-05 18:27:03 -0700
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.2ms | Allocations: 34)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 434)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-05 18:27:11 -0700
+Processing by CustomersController#index.json as JSON
+  Rendering customers/index.json.jbuilder
+  Rendered customers/index.json.jbuilder (Duration: 0.1ms | Allocations: 34)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 433)
+
+
+Started GET "/customers.json" for 127.0.0.1 at 2021-01-05 18:27:59 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as JSON
+  [1m[36mCustomer Load (2.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 27ms (Views: 9.1ms | ActiveRecord: 12.0ms | Allocations: 7537)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-05 18:30:13 -0700
+Processing by CustomersController#index as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.4ms | Allocations: 1308)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-05 18:50:45 -0700
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as */*
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1854)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:50:46 -0700
+Processing by CustomersController#index as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 646)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:50:49 -0700
+Processing by CustomersController#index as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 626)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:51:14 -0700
+Processing by CustomersController#index as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 626)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:51:14 -0700
+Processing by CustomersController#index as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 617)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:51:18 -0700
+Processing by CustomersController#index as */*
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 617)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:52:04 -0700
+Processing by CustomersController#index as JSON
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 657)
+
+
+  
+ArgumentError (Unrecognized status code :show):
+  
+app/controllers/customers_controller.rb:10:in `block (2 levels) in index'
+app/controllers/customers_controller.rb:8:in `index'
+Started GET "/customers.json" for ::1 at 2021-01-05 18:52:31 -0700
+Processing by CustomersController#index as JSON
+  [1m[36mCustomer Load (1.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 19ms (Views: 7.0ms | ActiveRecord: 9.4ms | Allocations: 7247)
+
+
+Started GET "/customers.json" for ::1 at 2021-01-05 18:52:36 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1274)
+
+
+Started GET "/" for ::1 at 2021-03-16 08:00:49 -0700
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.9ms | Allocations: 315)
+Completed 200 OK in 23ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 1748)
+
+
+  [1m[35m (17.0ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (5.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "kennels"[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/customers.json" for ::1 at 2021-03-16 08:23:21 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 17ms (Views: 6.6ms | ActiveRecord: 4.4ms | Allocations: 7498)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:04:05 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 20ms (Views: 14.5ms | ActiveRecord: 1.0ms | Allocations: 6505)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:04:13 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1275)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:04:13 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:05:17 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.4ms | Allocations: 1274)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:05:17 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:05:25 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.5ms | Allocations: 1274)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:05:25 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:06:13 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.4ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:06:13 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:06:48 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.6ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:06:48 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 1.9ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:07:23 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:07:23 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.9ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:08:58 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 1.5ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:08:58 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 5ms (Views: 1.9ms | ActiveRecord: 0.6ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:09:08 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (2.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 2.3ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:09:08 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.6ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:10:54 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:11:02 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.4ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:11:02 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:11:24 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:11:47 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.5ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:12:01 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.6ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:12:21 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:32:05 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 1.9ms | Allocations: 1314)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:32:11 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 16ms (Views: 3.1ms | ActiveRecord: 0.7ms | Allocations: 1259)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:44:07 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 1.0ms | Allocations: 1314)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:44:17 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.8ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:49:48 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.8ms | Allocations: 1314)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 10:50:24 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 11:00:25 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 5ms (Views: 2.2ms | ActiveRecord: 1.0ms | Allocations: 1314)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 11:12:10 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 1.1ms | Allocations: 1314)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 11:12:19 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-16 11:16:56 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 1256)
+
+
+Started GET "/" for ::1 at 2021-03-22 06:49:26 -0700
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/swordfish/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 13.7ms | Allocations: 315)
+Completed 200 OK in 27ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 1806)
+
+
+Started GET "/admin" for ::1 at 2021-03-22 06:49:31 -0700
+Processing by CustomersController#admin as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 2882)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00007f99ac2ac8d8>
+Did you mean?  try):
+  
+app/controllers/customers_controller.rb:9:in `admin'
+Started GET "/admin" for ::1 at 2021-03-22 06:50:30 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as HTML
+  [1m[36mCustomer Load (6.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:9:in `admin'
+  [1m[36mKennel Load (3.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:9:in `admin'
+Completed 406 Not Acceptable in 655077ms (ActiveRecord: 21.7ms | Allocations: 72668)
+
+
+  
+ActionController::MissingExactTemplate (CustomersController#admin is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin" for ::1 at 2021-03-22 07:05:46 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as HTML
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Customer Load (0.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mKennel Load (1.1ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1 LIMIT $2[0m  [["customer_id", 7], ["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1 LIMIT $2[0m  [["customer_id", 7], ["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1 LIMIT $2[0m  [["customer_id", 7], ["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1 LIMIT $2[0m  [["customer_id", 7], ["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1 LIMIT $2[0m  [["customer_id", 7], ["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1 LIMIT $2[0m  [["customer_id", 7], ["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" LIMIT $1[0m  [["LIMIT", 11]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mCACHE Kennel Load (0.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+Completed 406 Not Acceptable in 749033ms (ActiveRecord: 12.3ms | Allocations: 434159)
+
+
+  
+ActionController::MissingExactTemplate (CustomersController#admin is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin" for ::1 at 2021-03-22 07:18:32 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as HTML
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+  [1m[36mKennel Load (0.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `admin'
+Completed 406 Not Acceptable in 89724ms (ActiveRecord: 10.1ms | Allocations: 61732)
+
+
+  
+ActionController::MissingExactTemplate (CustomersController#admin is missing a template for request formats: text/html):
+  
+actionpack (6.0.3.4) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.0.3.4) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:195:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.3.4) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.4) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.4) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.4) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.4) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.4) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.4) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/admin" for ::1 at 2021-03-22 07:20:11 -0700
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/PetSafeKennels/PetSafe-Kennels/app/controllers/customers_controller.rb:87: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/customers_controller.rb:87: syntax error, unexpected end-of-input, expecting end
+app/controllers/customers_controller.rb:87: syntax error, unexpected end-of-input, expecting end
+app/controllers/customers_controller.rb:87: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin" for ::1 at 2021-03-22 07:20:23 -0700
+Processing by CustomersController#admin as HTML
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+Completed 406 Not Acceptable in 17ms (ActiveRecord: 5.5ms | Allocations: 7527)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/customers_controller.rb:9:in `admin'
+Started GET "/admin.json" for ::1 at 2021-03-22 07:20:30 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 20ms (Views: 13.9ms | ActiveRecord: 4.0ms | Allocations: 9533)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 08:00:31 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 28ms (Views: 7.9ms | ActiveRecord: 6.2ms | Allocations: 7601)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 08:00:41 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1274)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:00:54 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (1.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 64ms (Views: 36.5ms | ActiveRecord: 6.9ms | Allocations: 12807)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:01:52 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (2.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+Started GET "/customers.json" for ::1 at 2021-03-22 08:01:52 -0700
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 18ms (Views: 10.9ms | ActiveRecord: 4.0ms | Allocations: 4254)
+
+
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.9ms | Allocations: 1314)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:25:55 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 08:25:55 -0700
+Processing by CustomersController#index as */*
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (1.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+  [1m[36mCustomer Load (2.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+Completed 200 OK in 6ms (Views: 3.0ms | ActiveRecord: 1.2ms | Allocations: 1535)
+
+
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.9ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (2.1ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 18ms (Views: 8.8ms | ActiveRecord: 5.5ms | Allocations: 4838)
+
+
+Started GET "/admin" for ::1 at 2021-03-22 08:28:38 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as HTML
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+Completed 406 Not Acceptable in 23ms (ActiveRecord: 4.6ms | Allocations: 9630)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/customers_controller.rb:9:in `admin'
+Started GET "/admin.json" for ::1 at 2021-03-22 08:29:11 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 53ms (Views: 46.8ms | ActiveRecord: 4.4ms | Allocations: 12325)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:30:23 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 1.5ms | Allocations: 3452)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:31:36 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/PetSafeKennels/PetSafe-Kennels/app/controllers/customers_controller.rb:8: syntax error, unexpected ':', expecting '}'
+...@customers.map{ |cus| customer: cus, kennel: cus.kennels } 
+...                              ^
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/PetSafeKennels/PetSafe-Kennels/app/controllers/customers_controller.rb:8: syntax error, unexpected '}', expecting end
+...mer: cus, kennel: cus.kennels } 
+...                              ^):
+  
+app/controllers/customers_controller.rb:8: syntax error, unexpected ':', expecting '}'
+app/controllers/customers_controller.rb:8: syntax error, unexpected '}', expecting end
+app/controllers/customers_controller.rb:8: syntax error, unexpected ':', expecting '}'
+app/controllers/customers_controller.rb:8: syntax error, unexpected '}', expecting end
+app/controllers/customers_controller.rb:8: syntax error, unexpected ':', expecting '}'
+app/controllers/customers_controller.rb:8: syntax error, unexpected '}', expecting end
+Started GET "/admin.json" for ::1 at 2021-03-22 08:32:31 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/PetSafeKennels/PetSafe-Kennels/app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+...customers.map{ |cus| (customer: cus, kennel: cus.kennels) } 
+...                      ^~~~~~~~~):
+  
+app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+Started GET "/admin.json" for ::1 at 2021-03-22 08:33:53 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/PetSafeKennels/PetSafe-Kennels/app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+...customers.map{ |cus| (customer: cus, kennel: cus.kennels) } 
+...                      ^~~~~~~~~):
+  
+app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+app/controllers/customers_controller.rb:8: syntax error, unexpected tLABEL
+Started GET "/admin.json" for ::1 at 2021-03-22 08:35:26 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (1.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 44ms (Views: 14.2ms | ActiveRecord: 11.1ms | Allocations: 18952)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:36:13 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (1.0ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 46ms (Views: 17.6ms | ActiveRecord: 10.6ms | Allocations: 19026)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:36:23 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 10ms (Views: 6.5ms | ActiveRecord: 1.6ms | Allocations: 3532)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 08:37:49 -0700
+Started GET "/admin.json" for ::1 at 2021-03-22 08:37:49 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as JSON
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 15ms (Views: 11.6ms | ActiveRecord: 2.6ms | Allocations: 6880)
+
+
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 61ms (Views: 26.8ms | ActiveRecord: 18.6ms | Allocations: 20751)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:56:49 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 08:56:49 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  [1m[36mKennel Load (0.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.7ms | Allocations: 2079)
+
+
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 12ms (Views: 6.7ms | ActiveRecord: 2.5ms | Allocations: 6622)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 08:57:17 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 08:57:17 -0700
+Processing by CustomersController#admin as JSON
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 2153)
+
+
+  [1m[36mKennel Load (0.8ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 1.8ms | Allocations: 4889)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 09:58:19 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 09:58:19 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.8ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 38ms (Views: 21.8ms | ActiveRecord: 2.2ms | Allocations: 15018)
+
+
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 21ms (Views: 10.9ms | ActiveRecord: 7.2ms | Allocations: 6669)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 09:58:27 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.6ms | Allocations: 1256)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 09:58:33 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.4ms | Allocations: 1257)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 09:58:41 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 18ms (Views: 10.6ms | ActiveRecord: 4.6ms | Allocations: 10068)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 09:59:28 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (1.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 2.6ms | Allocations: 3351)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 09:59:31 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 09:59:31 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (1.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 15ms (Views: 8.5ms | ActiveRecord: 2.6ms | Allocations: 3351)
+
+
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 1.1ms | Allocations: 1314)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 09:59:53 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 09:59:53 -0700
+Processing by CustomersController#admin as JSON
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.4ms | Allocations: 2147)
+
+
+  [1m[36mKennel Load (1.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 17ms (Views: 9.5ms | ActiveRecord: 4.5ms | Allocations: 4897)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 10:05:00 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 1.1ms | Allocations: 3351)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 10:05:21 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 1.3ms | Allocations: 3351)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 10:05:42 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 1.2ms | Allocations: 3351)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 10:06:00 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.2ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.2ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 3351)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 10:06:38 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.2ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.9ms | Allocations: 3351)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 10:18:01 -0700
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 27ms (Views: 9.9ms | ActiveRecord: 7.2ms | Allocations: 8996)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 10:18:07 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 6]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 7]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 52ms (Views: 24.6ms | ActiveRecord: 7.5ms | Allocations: 18033)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddAddressToCustomers (20210322172544)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (11.9ms)[0m  [1m[35mALTER TABLE "customers" ADD "address" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (3.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322172544"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPaddwordDigestToCustomers (20210322172857)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "customers" ADD "password_digest" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322172857"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (96.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "PetSafe_Kennels_development"[0m
+  [1m[35m (596.9ms)[0m  [1m[35mCREATE DATABASE "PetSafe_Kennels_development" ENCODING = 'unicode'[0m
+  [1m[35m (18.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7445947096524708660)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCustomers (20201222045729)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "name" character varying, "number" bigint, "email" character varying, "city" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201222045729"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateKennels (20210101170138)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.3ms)[0m  [1m[35mCREATE TABLE "kennels" ("id" bigserial primary key, "kennel_type" character varying, "material_cost" bigint, "labor_cost" bigint, "price" bigint, "customer_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_d8d0eb9f98"
+FOREIGN KEY ("customer_id")
+  REFERENCES "customers" ("id")
+)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE  INDEX  "index_kennels_on_customer_id" ON "kennels"  ("customer_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210101170138"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAddressToCustomers (20210322172544)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "address" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322172544"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPaddwordDigestToCustomers (20210322172857)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "password_digest" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322172857"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-22 17:44:15.500287"], ["updated_at", "2021-03-22 17:44:15.500287"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7445947096524708660)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Create (1.0ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at", "address", "password_digest") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "John Taylor"], ["number", 5207307020], ["email", "jackisbusy@gmail.com"], ["city", "Phoenix"], ["created_at", "2021-03-22 18:31:19.052879"], ["updated_at", "2021-03-22 18:31:19.052879"], ["address", "123 happy street"], ["password_digest", "$2a$12$5wkRlQR3dQUBWwkjzu6NRuDeNSeXVWbWl8kZdtOeRl.dh4pAnAphS"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Create (0.2ms)[0m  [1m[32mINSERT INTO "customers" ("name", "number", "email", "city", "created_at", "updated_at", "address", "password_digest") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "Tom Burger"], ["number", 5555555555], ["email", "moneyman"], ["city", "Glendale"], ["created_at", "2021-03-22 18:31:19.056864"], ["updated_at", "2021-03-22 18:31:19.056864"], ["address", "123 happy street"], ["password_digest", "$2a$12$SaV4hCLnvYOAO01j2kbNsu8R36owz4jBs4e11/jh3DBc1fj41ZfOS"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/customers.json" for ::1 at 2021-03-22 15:07:40 -0700
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (4.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 24ms (Views: 8.3ms | ActiveRecord: 8.6ms | Allocations: 8945)
+
+
+Started GET "/customers.json" for ::1 at 2021-03-22 15:07:47 -0700
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 15ms (Views: 8.8ms | ActiveRecord: 4.3ms | Allocations: 8036)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 15:07:54 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (1.7ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 1]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 2]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 27ms (Views: 8.2ms | ActiveRecord: 4.0ms | Allocations: 6724)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 15:09:41 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 1]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.5ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 2]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 1.2ms | Allocations: 3153)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 15:10:51 -0700
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+Started GET "/customers.json" for ::1 at 2021-03-22 15:10:52 -0700
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 1]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.9ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 2]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 2.0ms | Allocations: 4199)
+
+
+Processing by CustomersController#index as */*
+  [1m[36mCustomer Load (1.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 1.6ms | Allocations: 1384)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 15:17:01 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 1]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.3ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 2]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 29ms (Views: 5.9ms | ActiveRecord: 7.1ms | Allocations: 14302)
+
+
+Started GET "/admin.json" for ::1 at 2021-03-22 15:18:31 -0700
+Started GET "/customers.json" for ::1 at 2021-03-22 15:18:31 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#index as */*
+Processing by CustomersController#admin as JSON
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  ↳ app/controllers/customers_controller.rb:18:in `block (2 levels) in index'
+  ↳ app/controllers/customers_controller.rb:8:in `map'
+Completed 200 OK in 22ms (Views: 9.5ms | ActiveRecord: 5.2ms | Allocations: 9790)
+
+
+  [1m[36mKennel Load (0.6ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 1]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+  [1m[36mKennel Load (0.4ms)[0m  [1m[34mSELECT "kennels".* FROM "kennels" WHERE "kennels"."customer_id" = $1[0m  [["customer_id", 2]]
+  ↳ app/controllers/customers_controller.rb:10:in `block (2 levels) in admin'
+Completed 200 OK in 33ms (Views: 7.3ms | ActiveRecord: 15.4ms | Allocations: 14818)
+
+
+Started GET "/customers.json" for ::1 at 2021-06-28 18:07:16 -0700
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+<<<<<<< HEAD
+^~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+=======
+^~~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+>>>>>>> f76940ce45ab21f570975f5...
+^~):
+  
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+Started POST "/customers/new" for ::1 at 2021-06-28 18:31:28 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/customers/new"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/customers.json" for ::1 at 2021-06-28 18:31:36 -0700
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+<<<<<<< HEAD
+^~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+=======
+^~~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+>>>>>>> f76940ce45ab21f570975f5...
+^~):
+  
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+Started GET "/customers.json" for ::1 at 2021-06-28 18:31:44 -0700
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+<<<<<<< HEAD
+^~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+=======
+^~~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+>>>>>>> f76940ce45ab21f570975f5...
+^~):
+  
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+Started GET "/customers.json" for ::1 at 2021-06-28 18:31:49 -0700
+  
+SyntaxError (/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+<<<<<<< HEAD
+^~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+=======
+^~~
+/mnt/c/Users/swordfish/dev/flatiron/Portfolio/petsafe-kennels/app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+>>>>>>> f76940ce45ab21f570975f5...
+^~):
+  
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+app/controllers/customers_controller.rb:3: syntax error, unexpected <<, expecting end
+app/controllers/customers_controller.rb:5: syntax error, unexpected ===, expecting end
+app/controllers/customers_controller.rb:7: syntax error, unexpected >>, expecting end
+Started POST "/customers/new" for ::1 at 2021-06-28 18:36:02 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/customers/new"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/customers/new" for ::1 at 2021-06-28 19:50:24 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/customers/new"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/customers.json" for ::1 at 2021-06-28 20:01:28 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NameError (undefined local variable or method `has_secure_password' for CustomersController:Class):
+  
+app/controllers/customers_controller.rb:3:in `<class:CustomersController>'
+app/controllers/customers_controller.rb:1:in `<main>'
+Started POST "/customers/new" for ::1 at 2021-06-28 20:02:14 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/customers/new"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/customers.json" for ::1 at 2021-06-28 22:04:02 -0700
+  
+NoMethodError (undefined method `POST' for #<ActionDispatch::Routing::Mapper:0x00007fe070eaaf58>):
+  
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started POST "/customers/new" for ::1 at 2021-06-28 22:04:44 -0700
+  
+ActionController::RoutingError (No route matches [POST] "/customers/new"):
+  
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/customers.json" for ::1 at 2021-06-28 22:45:14 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NameError (undefined local variable or method `has_secure_password' for CustomersController:Class):
+  
+app/controllers/customers_controller.rb:3:in `<class:CustomersController>'
+app/controllers/customers_controller.rb:1:in `<main>'
+Started POST "/customers/new" for ::1 at 2021-06-28 22:46:17 -0700
+  
+NameError (undefined local variable or method `has_secure_password' for CustomersController:Class):
+  
+app/controllers/customers_controller.rb:3:in `<class:CustomersController>'
+app/controllers/customers_controller.rb:1:in `<main>'
+Started POST "/customers/new" for ::1 at 2021-06-28 22:54:03 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+NameError (undefined local variable or method `has_secure_password' for CustomersController:Class):
+  
+app/controllers/customers_controller.rb:3:in `<class:CustomersController>'
+app/controllers/customers_controller.rb:1:in `<main>'
+Started POST "/customers/new" for ::1 at 2021-06-28 22:58:01 -0700
+Processing by CustomersController#new as */*
+  Parameters: {"name"=>"Meg D", "email"=>"Avergers@avengermail.com", "number"=>"5554443333", "city"=>"PHX", "address"=>"1233", "password"=>"[FILTERED]", "pending"=>false, "GLOBAL_FLAG"=>"error", "errors"=>[], "password_confirmation"=>"[FILTERED]", "customer"=>{"name"=>"Meg D", "number"=>"5554443333", "email"=>"Avergers@avengermail.com", "city"=>"PHX", "address"=>"1233"}}
+HTTP Origin header (http://localhost:3001) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 7.3ms | Allocations: 502)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:215:in `handle_unverified_request'
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:247:in `handle_unverified_request'
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:242:in `verify_authenticity_token'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+actionpack (6.0.3.5) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.3.5) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.5) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.5) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.5) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.5) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.5) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.5) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.5) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.5) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.5) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.5) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/customers/new" for ::1 at 2021-06-28 23:02:00 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+TypeError (superclass must be a Class (TrueClass given)):
+  
+app/models/customer.rb:2:in `<main>'
+Started POST "/customers/new" for ::1 at 2021-06-28 23:02:25 -0700
+Processing by CustomersController#new as */*
+  Parameters: {"name"=>"Meg D", "email"=>"Avergers@avengermail.com", "number"=>"5554443333", "city"=>"PHX", "address"=>"1233", "password"=>"[FILTERED]", "pending"=>false, "GLOBAL_FLAG"=>"error", "errors"=>[], "password_confirmation"=>"[FILTERED]", "customer"=>{"name"=>"Meg D", "number"=>"5554443333", "email"=>"Avergers@avengermail.com", "city"=>"PHX", "address"=>"1233"}}
+HTTP Origin header (http://localhost:3001) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 2.5ms | Allocations: 502)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:215:in `handle_unverified_request'
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:247:in `handle_unverified_request'
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:242:in `verify_authenticity_token'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+actionpack (6.0.3.5) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.3.5) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.5) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.5) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.5) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.5) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.5) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.5) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.5) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.5) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.5) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.5) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/customers/new" for ::1 at 2021-06-28 23:07:23 -0700
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CustomersController#new as */*
+  Parameters: {"name"=>"Meg D", "email"=>"Avergers@avengermail.com", "number"=>"5554443333", "city"=>"PHX", "address"=>"1233", "password"=>"[FILTERED]", "pending"=>false, "GLOBAL_FLAG"=>"error", "errors"=>[], "password_confirmation"=>"[FILTERED]", "customer"=>{"name"=>"Meg D", "number"=>"5554443333", "email"=>"Avergers@avengermail.com", "city"=>"PHX", "address"=>"1233"}}
+HTTP Origin header (http://localhost:3001) didn't match request.base_url (http://localhost:3000)
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 2.2ms | Allocations: 523)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:215:in `handle_unverified_request'
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:247:in `handle_unverified_request'
+actionpack (6.0.3.5) lib/action_controller/metal/request_forgery_protection.rb:242:in `verify_authenticity_token'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+actionpack (6.0.3.5) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.3.5) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3.5) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3.5) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3.5) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3.5) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3.5) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3.5) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3.5) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3.5) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3.5) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3.5) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.5) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.5) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.5) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.5) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.5) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.5) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.5) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.5) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (1.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "customers"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers" ORDER BY "customers"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]

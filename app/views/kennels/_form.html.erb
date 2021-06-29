@@ -1,0 +1,42 @@
+<%= form_with(model: kennel, local: true) do |form| %>
+  <% if kennel.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(kennel.errors.count, "error") %> prohibited this kennel from being saved:</h2>
+
+      <ul>
+        <% kennel.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :kennel_type %>
+    <%= form.text_field :kennel_type %>
+  </div>
+
+  <div class="field">
+    <%= form.label :material_cost %>
+    <%= form.text_field :material_cost %>
+  </div>
+
+  <div class="field">
+    <%= form.label :labor_cost %>
+    <%= form.text_field :labor_cost %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div class="field">
+    <%= form.label :customer_id %>
+    <%= form.text_field :customer_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

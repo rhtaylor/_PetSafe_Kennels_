@@ -1,0 +1,110 @@
+p{
+    margin-left: 5px;
+}
+div #kennel_slide{    
+    cursor: pointer;
+    display: flex;
+    height: 100% !important; 
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    
+    min-height: clamp(300px, 300px, 300px) !important;
+    display: flex !important; 
+    align-content: center; 
+    justify-content: center; 
+    top: 0px; 
+    position: relative;
+.parentDog{ 
+    position: relative;
+     
+    .myKennels{  
+         position: relative;
+         div{
+            max-height: clamp(200px, 200px, 200px) !important; 
+            max-width: clamp(200px, 200px,200px) !important; 
+        } 
+        background: url(#{'../pictures/card-back.jpg'});  
+        background-position: left;
+        background-repeat: no-repeat;
+        background-position:center;
+        align-items: center; 
+        padding: 0px !important;  
+        max-height: clamp(300px, 300px, 300px) !important; 
+        max-width: clamp(350px, 350px,350px) !important;  
+        min-height: clamp(300px, 300px, 300px) !important;  
+        min-width: clamp(350px, 350px, 350px) !important; 
+        ul{
+            margin-bottom: 0%;
+        }
+        img{   
+        max-height: clamp(200px, 200px, 200px) !important; 
+        max-width: clamp(200px, 200px,200px) !important;  
+        margin-bottom: 0%;
+        
+    padding-left: 0vh !important;  
+    align-self: center;
+    
+}
+    }
+ 
+
+.kennel_back{  
+    float:bottom;  
+    align-self: flex-end; 
+    height: 100% !important;
+    bottom: 0% !important; 
+    top: 0% !important;  
+     padding: 0;
+    margin: 0;
+    position: absolute;
+     
+        position: relative;
+        div{
+        background: url(#{'../pictures/card-back.jpg'});   
+        } 
+        *{
+            color: black; 
+
+        } 
+        
+        background-position: left;
+        background-repeat: no-repeat;
+        background-position:center;
+        align-items: center; 
+        padding: 0px !important;  
+        max-height: clamp(300px, 300px, 300px) !important; 
+        max-width: clamp(300px, 300px,300px) !important;  
+        min-height: clamp(300px, 300px, 300px) !important;  
+        min-width: clamp(350px, 350px, 350px) !important; 
+    padding: 0px !important; 
+    justify-self: center;  
+    div{
+            max-height: clamp(200px, 200px, 200px) !important; 
+            max-width: clamp(200px, 200px,200px) !important; 
+        } 
+} 
+}
+}
+
+.kennel_back{ 
+        // padding: 0px !important;  
+        // display:inline-block !important; 
+        // position:static; 
+        background: url(#{'../pictures/card-back.jpg'});   
+        background-position: left;
+        background-repeat: no-repeat;
+        background-position:center;
+        align-items: center; 
+        // padding: 0px !important;  
+        max-height: clamp(300px, 300px, 300px) !important; 
+        max-width: clamp(350px, 350px,350px) !important;  
+        min-height: clamp(300px, 300px, 300px) !important;  
+        min-width: clamp(350px, 350px, 350px) !important; 
+    // padding: 0px !important; 
+    // justify-self: center;  
+    div{
+            max-height: clamp(200px, 200px, 200px) !important; 
+            max-width: clamp(200px, 200px,200px) !important; 
+        } 
+    } 

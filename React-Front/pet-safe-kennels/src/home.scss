@@ -1,0 +1,142 @@
+#call{
+    color: rgb(250, 250, 101) !important;
+}
+#container{ 
+background-color: black;   
+align-content: center;
+img{  
+    padding-left: 70vh; 
+    align-self: center;
+    width: 500px; 
+    
+}
+#home{
+    
+    img{ 
+        padding-left: 30vh; 
+        padding-right: 30vh;
+        align-self: center;
+        height: 400px; 
+        width: 1024px;
+    } 
+    p{
+        justify-self: center; 
+        float: left;
+    } 
+    
+}  
+h1{ 
+    padding-left: 60vh;
+}
+
+h1.small{
+    display: none; 
+
+}
+} 
+#sub-kennel{
+    display: flex; 
+    @media only screen and (min-width: 360px) and (max-width: 1040px){  
+        display: block;
+    }
+} 
+
+@media only screen and (min-width: 360px) and (max-width: 1040px){ 
+    #container{
+        h1{
+            padding-left: 3em;
+        } 
+        h1.small{  
+            display: flex;
+            padding-left: 1em;  
+            overflow-wrap: break-word;
+            font-family: serif; 
+            color: burlywood; 
+        }
+    button.button{
+                margin-left: 30%;
+            }
+    }
+      .small{
+      font-weight: bold;
+      font-family: serif; 
+      color: burlywood; 
+      padding-right: 10%; 
+      *{
+          padding-left: 0vh;
+
+      }
+  }
+  body {
+    background-color: rgb(25, 39, 44);  
+    width: 100%;
+  } 
+  .container{
+      display: flex; 
+      
+  }
+    .navbar{
+        display: none;
+    } 
+   
+    #kennel_slide{
+       
+        background: url(#{'./pictures/lowProfileDogKennel.jpg'});  
+        background-repeat: no-repeat;
+        background-position: right center !important; 
+        
+    } 
+    .myKennels{
+        display: none;
+    } 
+    img{ 
+        justify-content: center !important;
+         display: none;
+         padding-left: 0%; 
+         padding: 0% !important;  
+         margin: 0%;
+    } 
+    form.contact-form{
+        margin-left: 1em;
+    }
+  }
+
+// @media only screen and (min-width: 1000px) and (max-width: 1500px){ 
+//      .small{
+//       font-weight: bold;
+//       font-family: serif; 
+//       color: burlywood; 
+//       padding-right: 10%;
+//   }
+//   body {
+//     background-color: rgb(25, 39, 44);   
+//     width: 30%;
+//   } 
+//   .container{
+//       display: flex; 
+      
+//   }
+//     .navbar{
+//         display: none;
+//     } 
+   
+//     #kennel_slide{
+//         display: none; 
+//         background: url(#{'./pictures/lowProfileDogKennel.jpg'});  
+//         background-repeat: no-repeat;
+//         background-position: right center !important; 
+        
+//     } 
+//     .myKennels{
+//         display: none;
+//     } 
+//     img{ 
+//         justify-content: center !important;
+//         display: none;
+//         width: 50px;
+//          padding-left: 0%; 
+//          padding: 0% !important;  
+//          margin: 0%;
+//     }
+//   } 
+

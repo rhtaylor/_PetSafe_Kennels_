@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Kennel type:</strong>
+  <%= @kennel.kennel_type %>
+</p>
+
+<p>
+  <strong>Material cost:</strong>
+  <%= @kennel.material_cost %>
+</p>
+
+<p>
+  <strong>Labor cost:</strong>
+  <%= @kennel.labor_cost %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @kennel.price %>
+</p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @kennel.customer_id %>
+</p>
+
+<%= link_to 'Edit', edit_kennel_path(@kennel) %> |
+<%= link_to 'Back', kennels_path %>

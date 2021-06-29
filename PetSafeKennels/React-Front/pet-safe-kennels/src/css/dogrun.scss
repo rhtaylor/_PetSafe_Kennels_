@@ -1,0 +1,103 @@
+$url1: '../pictures/9FTX9FT-Run.jpg'; 
+$url2: '../pictures/12FTX12FTwith-Tunnel.jpg';
+$url3: '../pictures/Gilbert-AZ-Kennels-2.jpg';
+#img{
+   margin-left: 5px;
+}
+body{
+   overflow-x: hidden; 
+   min-height: 100%
+}   
+  h1#info{
+       margin-left: 5px !important;
+   }
+.dog-run-arizona{
+   min-height: 100vh;
+}
+#info{ 
+      margin-left: clamp(1em, 1em, 1em); 
+      margin-right: 1em;
+      color: rgb(255, 255, 255);
+  
+   }
+#all-arizona-runs{  
+    
+   position: absolute;
+   #info{ 
+      margin-left: 10px;
+      color: rgb(218, 198, 238);
+
+   }
+   display: flex; 
+   
+   .custom-kennels{
+      overflow: hidden; 
+      overflow-x: hidden; 
+
+   } 
+
+}   
+.custom-kennels{ 
+       display: flex;  
+       position: relative; 
+       img{
+    
+    background-repeat: no-repeat;
+    background-position:center top;
+    max-height: 400px; 
+    min-height: 400px; 
+    max-width: 400px; 
+    
+       }
+   }  
+   .custom-kennels:hover{
+         cursor: pointer;
+   }
+   .dog_run{
+      position: fixed;
+   }
+
+    #dog-run0{ 
+    flex: 0;
+    background: url(#{$url1}); 
+    background-repeat: no-repeat;
+    background-position:center top;
+    max-height: 450px; 
+    min-height: 450px; 
+    max-width: 450px; 
+    min-width: 450px;   
+    } 
+
+    #dog-run1{ 
+    flex: 1;
+    background: url(#{$url2}); 
+    background-repeat: no-repeat;
+    background-position:center top;
+    max-height: 450px; 
+    min-height: 450px; 
+    max-width: 450px; 
+    min-width: 450px;   
+    } 
+    #dog-run2{ 
+    flex:2;
+    background: url(#{$url3}); 
+    background-repeat: no-repeat;
+    background-position:center top;
+    max-height: 450px; 
+    min-height: 450px; 
+    max-width: 450px; 
+    min-width: 450px;   
+    } 
+@media only screen and (min-width: 360px) and (max-width: 1040px){ 
+#all-arizona-runs{ 
+    background: url(#{$url2}); 
+    display: flex; 
+    max-height: 450px; 
+    min-height: 450px; 
+    max-width: 450px; 
+    min-width: 450px; 
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}   
+}

@@ -1,0 +1,22 @@
+.Avatar{
+    margin: 5%; 
+    background: url(#{'../pictures/lowProfileDogKennel.jpg'}) !important;
+    display: block;
+    background-repeat: no-repeat;
+    background-position:center
+} 
+
+.null{
+    display: none; 
+} 
+.error{
+    display: flex; 
+    color: rgb(241, 212, 157); 
+    h1{
+        color: red
+    }
+} 
+
+.form{
+    align-content: center;
+}

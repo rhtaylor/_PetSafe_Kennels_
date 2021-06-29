@@ -1,0 +1,76 @@
+#big-kennel {  
+    cursor: pointer; 
+    flex: 2;
+    background: url(#{'../pictures/6FT-California-Kennel.jpg'}); 
+    background-repeat: no-repeat;
+    background-position:center;
+    max-height: clamp(350px, 350px, 350px); 
+    min-height: clamp(350px, 350px, 350px); 
+    max-width: clamp(450px, 450px,450px); 
+    min-width: clamp(450px, 450px,450px);  
+    @media only screen and (min-width: 360px) and (max-width: 1040px){
+    max-width: clamp(450px, 450px,450px); 
+    min-width: clamp(350px, 350px, 350px);
+    max-height: clamp(350px, 350px, 350px); 
+    min-height: clamp(350px, 350px, 350px); 
+    }
+    p{
+        color: rgba(255, 0, 0, 0.808); 
+        text-align: center; 
+        font-weight: bold; 
+       
+    }  
+    #bottom{
+        padding-top: 18vh; 
+    }
+} 
+
+ #big-kennel-back{ 
+     cursor: pointer;
+     background: url(#{'../pictures/card-back.jpg'}); 
+     background-repeat: no-repeat;
+     background-position:center;
+     max-height: clamp(350px, 350px, 350px); 
+    min-height: clamp(350px, 350px, 350px); 
+     max-width: clamp(450px, 450px,450px); 
+     min-width: clamp(450px, 450px,450px);  
+     @media only screen and (min-width: 360px) and (max-width: 1040px){
+    max-width: clamp(450px, 450px,450px); 
+    min-width: clamp(350px, 350px, 350px);
+    max-height: clamp(350px, 350px, 350px); 
+    min-height: clamp(350px, 350px, 350px); 
+    }
+  
+     * {
+         color: rgb(0, 0, 0); 
+         text-align: center;
+         font-weight: bold;
+     }  
+
+
+     #link{
+         color: rgb(116, 52, 22)
+     }  
+     #link:hover{
+         color: rgb(204, 105, 75);
+     }  
+
+     #more{
+       
+         font-size: medium;
+         border-radius: 3px;  
+         background-color: rgb(255, 0, 0);
+         box-shadow: 2px 3px rgb(202, 138, 138);
+     }
+     #more:hover{
+         cursor: pointer;
+     }
+  }
+
+
+//  #back{ 
+//         cursor: pointer;
+//         color: rgb(165, 82, 82); 
+//         text-decoration: underline;
+//     }
+
