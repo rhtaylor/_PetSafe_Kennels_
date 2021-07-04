@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  resources :kennels 
+  root to: 'customers#index'
+  devise_for :customers, controllers: {
+        sessions: 'customers/sessions'
+      }
+  resources :kennels  
+  post '/authentication_tokens', to: "authentication_tokens#create"
+  post '/login', to: "customers#login"
   get '/admin', to: 'customers#admin' 
   post '/customers/new', to: 'customers#new'
   get '/customers.json', to: 'customers#index'

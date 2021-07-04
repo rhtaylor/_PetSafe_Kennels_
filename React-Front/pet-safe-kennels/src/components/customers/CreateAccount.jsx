@@ -4,7 +4,7 @@ import '../../css/customer.scss'
 var GLOBAL_FLAG = 'null' 
 var ERROR_MESSAGES= undefined 
 var CREATE_CUSTOMER_URL = 'http://localhost:3000/customers/new' 
-
+var DEVISE_URL = 'http://localhost:3000/customers/sign_up'
 export default class CreateAccount extends Component{
     constructor(props){
         super(props)
@@ -31,13 +31,12 @@ export default class CreateAccount extends Component{
         let saved_e = e
         // POST requst for backend
         debugger
-        fetch(CREATE_CUSTOMER_URL, {
-            method: "POST",
+        fetch(DEVISE_URL, {
+            method: "GET",
+            mode: 'no-cors',
             headers: {
-                mode: 'no-cors',
                 'Content-Type': "application/json",
                 'Access-Control-Allow-Origin': 'http://localhost:3001',
-                'credentials': 'same-origin'
             },
             body: JSON.stringify(this.state)
         } )

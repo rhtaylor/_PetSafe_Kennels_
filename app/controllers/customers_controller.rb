@@ -1,7 +1,7 @@
 class CustomersController < ApplicationController
-  
-  before_action :set_customer, only: [:show, :edit, :update, :destroy]
-  
+  include Devise::Controllers::Helpers
+  before_action :set_customer, only: [ :new, :create, :show, :edit, :update, :destroy]
+  before_action :authenticate_customer!
 
   #admin route will render special page for amin
   def admin 
@@ -19,16 +19,32 @@ class CustomersController < ApplicationController
       format.json { render :json => @customers } 
     
   end
+  end 
+
+  def generate_jwt
+            JWT.encode({ id: id,
+            exp: 10.days.from_now.to_i },
+            Rails.application.secrets.secret_key_base)
   end
 
+
+
+  def login 
+    binding.pry
+  end
+ 
+  def current_token
+  request.env['warden-jwt_auth.token']
+  end
   # GET /customers/1
   # GET /customers/1.json
   def show
   end
 
   # GET /customers/new
-  def new
-    @customer = Customer.new
+  def new 
+    binding.pry
+    @customer = Customer.new(customer_params)
   end
 
   # GET /customers/1/edit
@@ -41,7 +57,7 @@ class CustomersController < ApplicationController
     binding.pry
     @customer = Customer.new(customer_params) 
     binding.pry
-    if @customer && @customer.authenticate(params[:customer][:password])
+    if @customer&.authenticate(params[:customer][:password])
     respond_to do |format|
       if @customer.save 
         format.html { redirect_to @customer, notice: 'Customer was successfully created.' }
@@ -80,7 +96,8 @@ end
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_customer
+    def set_customer 
+      binding.pry
       @customer = Customer.find(params[:id])
     end
 
