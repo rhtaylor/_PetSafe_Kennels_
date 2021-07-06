@@ -1,6 +1,29 @@
 # frozen_string_literal: true
 
-class Session::SessionsController < Devise::SessionsController
+class Customers::SessionsController < Devise::SessionsController
+  
+  def new 
+    binding.pry
+  end
+
+  
+  def create
+    customer = Customer.new(params)
+            .find_by(email: params["customer"]["email"])
+            .try(:authenticate, params["customer"]["password"])
+
+    if customer
+      session[:customer_id] = customer.id
+      render json: {
+        status: :created,
+        logged_in: true,
+        customer: customer
+      }
+    else
+      render json: { status: 401 }
+    end
+  end
+  
   # before_action :configure_sign_in_params, only: [:create]
 
   # GET /resource/sign_in

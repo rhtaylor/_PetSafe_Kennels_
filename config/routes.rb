@@ -1,8 +1,16 @@
 Rails.application.routes.draw do
   root to: 'customers#index'
   devise_for :customers, controllers: {
-        sessions: 'customers/sessions'
-      }
+        sessions: 'customers/sessions', 
+        registrations: 'customers/registrations'
+      } 
+  
+  devise_scope :customers do
+    get 'sign_in', to: 'customers/sessions#new'
+    get 'sign_up', to: 'customers/registrations#new'
+    get 'forgot_password', to: 'customers/passwords#new'
+    get 'reset_password', to: 'customers/passwords#edit'
+  end     
   resources :kennels  
   post '/authentication_tokens', to: "authentication_tokens#create"
   post '/login', to: "customers#login"

@@ -1,5 +1,7 @@
 class CustomersController < ApplicationController
+  binding.pry
   include Devise::Controllers::Helpers
+  skip_before_action :authenticate_customer!, only: [:show, :index], :raise => false
   before_action :set_customer, only: [ :new, :create, :show, :edit, :update, :destroy]
   before_action :authenticate_customer!
 
@@ -13,7 +15,8 @@ class CustomersController < ApplicationController
   end 
   # GET /customers
   # GET /customers.json
-  def index
+  def index 
+    binding.pry
     @customers = Customer.all 
     respond_to do |format|
       format.json { render :json => @customers } 

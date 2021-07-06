@@ -2,14 +2,16 @@
 
 class Session::PasswordsController < Devise::PasswordsController
   # GET /resource/password/new
-  # def new
-  #   super
-  # end
+  def new 
+    binding.pry
+    super
+  end
 
   # POST /resource/password
-  # def create
-  #   super
-  # end
+  def create 
+    binding.pry
+    super
+  end
 
   # GET /resource/password/edit?reset_password_token=abcdef
   # def edit
