@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ContactUs from './EmailForm.jsx'
 import Button from './Button.jsx'
 import './css/button.scss'
-let PRICE = '2400'
+let PRICE = '2700'
 export default class Contact extends Component{
     constructor(props){
         super(props)
